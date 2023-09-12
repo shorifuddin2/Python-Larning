@@ -39,3 +39,41 @@ print(x)
 print(type(x))
 
 # ------------------------------------------
+
+x = None
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x))
+
+# ---------------------------
+
+x = ["apple", "banana", "cherry"]
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x))
+
+# ------------------------------
+x = ("apple", "banana", "cherry")
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x))
+# -------------------------------
+
+x = range(6)
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x))
+for i in x:
+    print(i)
